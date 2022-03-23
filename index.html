@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pokedex.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="pokedex">
+                <div class="lc">
+                    <div class="lc-poke">
+                        <div class="lc-g">
+                            <div class="circulo">
+                                <div class="sombra-cg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lcs-poke">
+                        <div class="led-3">
+                            <div class="led rojo">
+                                <div class="sombra s-roja"></div>
+                            </div>
+                            <div class="led amarillo">
+                                <div class="sombra s-amarillo"></div>
+                            </div>
+                            <div class="led verde">
+                                <div class="sombra s-verde"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <svg height="100" width="530" class="left-svg">
+                    <polyline points="0,75 140,75 180,38 530,38" style="fill: none; stroke: black; stroke-width: 3" />
+                </svg>
+
+
+                <div class="pantalla">
+                    <div class="led-pantalla">
+                        <img src="" id="pokeImg" height="180px">
+                        <p id="Nombre-p"></p>
+                    </div>
+                    <div class="circulo-ch">
+                        <div class="sombra s-roja"></div>
+                    </div>
+                </div>
+
+                <div class="controles">
+                    <div class="buscador">
+                        <button onclick="imprimir()">Buscar Pokemon</button>
+                        <div class="buscar">
+                            <div class="cuadros">
+                                <div class="cuadro-red"></div>
+                                <div class="cuadro-blue"></div>
+                            </div>
+
+                            <input type="text" id="pokename" name="pokeName">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="pokedex-d">
+                <div class="patalla-info" id=pokedex-info>
+
+                    <div class="info-pokemon">
+                        <p class="tipo-tex">Tipo :</p>
+                        <p id="info-tipo"></p>
+                    </div>
+                    <div class="info-pokemon">
+                        <p class="tipo-tex">movimientos :</p>
+                        <div class="movimientos">
+                            <p class="h1"></p>
+                            <p class="h2"></p>
+                        </div>
+
+                    </div>
+                    <div class="estaditicas">
+                        <div class="datos">
+                            <p>hp:</p>
+                            <p>attack:</p>
+                            <p>defense:</p>
+                            <p>special-attack:</p>
+                            <p>special-defense:</p>
+                            <p>speed:</p>
+
+                        </div>
+                        <div id="stadisticas">
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="contenedor-botones">
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+                    <div class="botones"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </header>
+</body>
+
+</html> 

@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+display:  flex;
+justify-content: center;
+align-items: center;
+}
+
+.pokedex-d{
+    margin-top: 110px;
+    background-color: #FE0065;
+    height: 590px;       ;
+    width: 530px;
+    border-radius: 0px 10px 10px 0px;
+    border: 5px solid black;
+}
+.pokedex{
+    background-color: #FE0065;
+    height: 700px;       ;
+    width: 530px;
+    border-radius: 10px 10px 0px 10px;
+    border: 5px solid black;
+}
+
+.lc-poke{
+    margin: 10px;
+
+}
+
+.lc-g{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    position: static;
+    padding: 5px;
+    border: 3px black solid ;
+}
+
+.circulo{
+    width: 95px;
+    height: 95px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #3298CB;
+    position: relative;  
+    top: 0px;
+    left: 0.2px;  
+    border: 3px black solid ;
+
+}
+.sombra-cg{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #85BDFE;
+}
+.lc{
+    display: flex;
+}
+
+.lcs-poke{
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+
+}
+.led-3{
+    display: flex;
+}
+.led{
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #FF0102;
+    border: 5px black solid ;
+    margin-left: 5px;
+
+}
+.rojo{
+    background-color: #FF0102;
+
+}
+.amarillo{
+    background-color: #FECB65;
+}
+.verde{
+    background-color: #32CA64;
+}
+
+.sombra{
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 3px;
+}
+
+.s-roja{
+background-color: #ff7070;
+}
+.s-amarillo{
+    background-color: #FEFDC8;
+}
+
+.s-verde{
+    background-color: #92FB07;
+}
+.left-svg{
+    position: relative;
+    top:-60px;
+}
+
+.pantalla{
+    border-radius: 0px 0px 0px 10px;
+    border: 5px solid black;
+    background-color: #FFFFFF;
+    margin-top:-50px ;
+    margin-left: 80px;
+
+    width: 360px;
+    height: 320px;
+}
+
+.led-pantalla{
+    border-radius: 10px 10px 10px 10px;
+    border: 5px solid black;
+    background-color: #98CB98;
+    margin: 30px auto;
+   height: 220px;
+   width:300px ;
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+.led-pantalla p{
+    margin-top: -20px;
+}
+
+.led-pantalla img{
+    margin-left:20px  ;
+}
+
+.buscador{
+    display: flex;
+}
+
+
+.circulo-ch{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #FF0102;
+    position: relative;
+    top: -12px;
+    margin-left:20px ;
+    border: 4px solid black;
+
+}
+
+button{
+    margin: 30px;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #585858;
+    border: 2px solid black;
+    color: #FFFFFF;
+}
+input{
+    text-align: center;
+    margin: 20px 10px;
+    background-color: #3AB47D;
+    border: 3px black solid;
+    padding: 20px 10px;
+
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.cuadros{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.cuadro-red{
+   margin: 0px 2px ;
+    background-color: #E90105;
+    border: 5px black solid;
+    border-radius: 10px ;
+    height: 5px;
+    width: 100px ;
+
+}
+.cuadro-blue{
+
+
+    background-color: #78ACE8;
+    border: 5px black solid;
+    border-radius: 10px ;
+    height: 5px;
+    width: 100px ;
+
+}
+
+.patalla-info{
+    margin: 50px auto ;
+    height: 360px;
+    width: 400px;
+    border: 5px black solid;
+    border-radius: 10px ;
+    background-color: #98CB98;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contenedor-botones{
+    max-width: 400px;
+    margin-top: -45px;
+    margin-left: 63px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+.botones{
+
+    background-color:#7BA9F7 ;
+    width: 77px;
+    height: 40px;
+    border:  2px solid black;
+    border-radius: 10px;
+}
+
+.info-pokemon{
+    display: flex;
+    color: #1b361b;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.info-pokemon p{
+    margin-bottom:0px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.tipo-tex{
+
+    font-size: small;
+    color: rgb(243, 243, 75);
+}
+
+.tipo{
+    background-color: rgb(57, 61, 253);
+    text-align: center;
+    padding:2px 15px 2px 15px;
+    border-radius: 2px;
+
+}
+
+.movimientos{
+    display: flex;
+}
+.infMovi{
+    background-color: rgb(252, 23, 23);
+    text-align: center;
+    margin-top: 0px ;
+    padding:5px;
+    border-radius: 2px;
+}
+
+.estaditicas{
+    margin-right: 15px;
+    display: flex;
+}
+
+.datos{
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 19px;
+
+}
+
+#stadisticas{
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+.prueba:disabled{
+    background-color: #585858;
+}
